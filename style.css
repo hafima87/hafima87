@@ -1,0 +1,58 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    color: peru;
+    text-align: center;
+    border: 2 px peru solid;
+}
+
+p {
+    color: #555555;
+    font-size: 18 px; 
+}
+
+blockquote {
+    background-color: white;
+    color: #000000;
+    width: 100%;
+    border: 1px solid #555555;
+}
+
+blockquote p {
+    color: #000000;
+}
+
+#citation-2 {
+background-color: tomato;
+color: white;
+}
+
+#citation-2 p {
+    color: white;
+}
+
+.liste-2 {
+    color: tomato;
+}
+
+section{
+    border-bottom: 1px black;
+}
+
+h3 span {
+    color: rebeccapurple;
+}
+
+h3 + p {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+footer h2 {
+    font-size: 18px;
+}
