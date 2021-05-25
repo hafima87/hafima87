@@ -1,6 +1,31 @@
 body {
     font-family: 'Courier New', Courier, monospace;
+
 }
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: square;
+    }
+    .menu .menu-item {
+    display: inline-block ;
+    text-transform: uppercase;
+    margin-right: 10px;
+    }
+    .social{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+.social .social-item {
+    display: inline-block;
+    margin-right:10;
+    
+    
+}
+
+
 
 h1 {
     color: peru;
@@ -13,8 +38,7 @@ h1 {
 p {
     color: #555555;
     font-size: 18 px; 
-   
-   
+
 }
 
 blockquote {
@@ -64,27 +88,20 @@ footer h2 {
     font-size: 18px;
 }
 
-.menu-item {
-    margin: 0px;
-    padding: 15px;
-    list-style-type: none;
-    display: inline-block ;
+
+.container{
+
+    padding: 20px;
+    background-color: aliceblue;
 }
-.social-item {
-    margin: 0px;
-    padding: 15px;
-    list-style-type: none;
-    display: inline-block;
+.container::after{
+    content:" " ;
+    display: table;
+    clear: both;
 }
 
- .photo,p ::after{
-     float:left;
-     clear: both;
-     margin-left: 40px;
-     margin-right: 15px;
-     
-               
-}
-.dessus{
-    clear: both;
-    
+ .photo {
+     float: left;
+     margin-right: 20px ;
+ }
+ 
